@@ -9,4 +9,12 @@ This won't include all Bootstrap elements. For example, it won't include the nav
 
 **Card**
 
-`[card title="test title" img="img.jpg" alt="Image Alt"]test text here[/card]`
+`[card title="test title" float="right" img="img.jpg" alt="Image Alt"]test text here[/card]`
+
+Works with or without float.
+
+**Images**
+
+[img float="right" img="img.jpg" alt="Image Alt"]
+
+Works with or without float.
