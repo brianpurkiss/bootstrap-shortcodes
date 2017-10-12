@@ -3,11 +3,13 @@
   Description: DO NOT DEACTIVATE. Add shortcodes for Bootstrap 4.
   Author: Brian Purkiss
   Author URI: http://brianpurkiss.com
-  Version: 0.1.0
+	Plugin URI: https://github.com/brianpurkiss/bootstrap-shortcodes
+  Version: 0.1.1
 */
 
 
 require_once bss_get_plugin_directory('functions/card.php');
+require_once bss_get_plugin_directory('functions/image.php');
 
 
 /**
