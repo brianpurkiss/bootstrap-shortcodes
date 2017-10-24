@@ -15,7 +15,7 @@ function bss_bootstrap_card( $atts, $content = null ) {
 
 	if ( $float == 'center' ) {
 		return '
-			<div class="card mx-auto d-block" style="width:' . esc_attr($width) . ';">
+			<div class="card mx-auto d-block" style="max-width:' . esc_attr($width) . 'px;">
 				<img class="card-img-top" src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '">
 				<div class="card-block">
 					<p class="card-text">' . esc_attr($content) . '</p>
@@ -24,7 +24,7 @@ function bss_bootstrap_card( $atts, $content = null ) {
 		';
 	} else {
 		return '
-			<div class="card" style="width:' . esc_attr($width) . ';float:' . esc_attr($float) . '">
+			<div class="card" style="max-width:' . esc_attr($width) . 'px;float:' . esc_attr($float) . '">
 				<img class="card-img-top" src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '">
 				<div class="card-block">
 					<h5 class="card-title">' . esc_attr($title) . '</h5>
