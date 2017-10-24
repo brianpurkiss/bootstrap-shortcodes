@@ -6,7 +6,7 @@
 
 function bss_bootstrap_card( $atts, $content = null ) {
 	extract( shortcode_atts( array(
-		'width' => '300px',
+		'width' => '300',
 		'img' => '',
 		'alt' => '',
 		'float' => 'right'
