@@ -4,7 +4,7 @@
   Author: Brian Purkiss
   Author URI: http://brianpurkiss.com
 	Plugin URI: https://github.com/brianpurkiss/bootstrap-shortcodes
-  Version: 0.1.2
+  Version: 0.1.1
 */
 
 
