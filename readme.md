@@ -17,6 +17,6 @@ This won't include all Bootstrap elements. For example, it won't include the nav
 
 **Images**
 
-[img float="right" img="img.jpg" alt="Image Alt"]
+`[img float="right" img="img.jpg" alt="Image Alt"]`
 
 * Float options are: left, right, center, [blank]
