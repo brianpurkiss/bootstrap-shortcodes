@@ -14,15 +14,15 @@ function bss_bootstrap_image( $atts, $content = null ) {
 
 	if ( empty($float) ) {
 		return '
-			<img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail">
+			<p><img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail"></p>
 		';
 	} elseif ( $float == 'center' ) {
 		return '
-			<img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail mx-auto d-block">
+			<p><img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail mx-auto d-block"></p>
 		';
 	} else {
 		return '
-			<img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail float-' . esc_attr($float) . '">
+			<p><img src="' . esc_attr($img) . '" alt="' . esc_attr($alt) . '" class="img-thumbnail float-' . esc_attr($float) . '"></p>
 		';
 	}
 }
